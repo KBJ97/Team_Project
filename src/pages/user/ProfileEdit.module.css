@@ -1,0 +1,57 @@
+.user {
+  flex-grow: 1;
+}
+.edit_profile {
+  background-color: white;
+  font-size: medium;
+  border: 1px solid var(--color-gray);
+  border-radius: 8px;
+  width: 30%;
+  min-width: 350px;
+  height: 400px;
+  margin: 200px auto;
+  text-align: center;
+}
+.eidt_input {
+  margin-left: 20px;
+}
+.edit_text {
+  display: flex;
+}
+.edit_memo {
+  width: 60%;
+  min-width: 280px;
+  font-weight: bold;
+  margin: 30px auto;
+}
+.edit_input {
+  width: 85%;
+  height: 26px;
+  border: 1px solid var(--color-gray);
+  margin-left: 10px;
+}
+.edit_ex {
+  text-align: left;
+  font-size: small;
+  color: var(--color-gray);
+  font-weight: 100;
+  margin: 10px 30px;
+}
+.edit_textarea {
+  width: 85%;
+  height: 82px;
+  margin-left: 10px;
+  border: 1px solid var(--color-gray);
+  resize: none;
+  outline: none;
+  padding: 0 5px;
+}
+.edit_button {
+  width: 50px;
+  height: 30px;
+  background-color: var(--color-main-green3);
+  border: none;
+  border-radius: 5px;
+  color: var(--color-white);
+  cursor: pointer;
+}

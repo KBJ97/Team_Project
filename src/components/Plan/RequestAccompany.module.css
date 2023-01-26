@@ -1,0 +1,9 @@
+.container{
+  position: absolute;
+  z-index: 100;
+  top : 30px;
+  width : 300px;
+  min-height: 100px;
+  border-radius: 1em;
+  background-color: var(--color-light-gray);
+}

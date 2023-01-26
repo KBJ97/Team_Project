@@ -1,0 +1,2 @@
+공통으로 관리할 데이터를 reducer로 만들어 사용
+modules 폴더에서 하나의 reducer를 담은 js파일 저장

@@ -1,0 +1,22 @@
+.planlist {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    justify-content : center;
+}
+
+.planlistpast {
+    width: 100%;
+    float: left;
+}
+
+.planlist h3 {
+    text-align: left;
+    border-bottom: 5px;
+}
+
+.planlistcurrent{
+display: flexbox;
+position: relative;
+ top: 50px;
+}

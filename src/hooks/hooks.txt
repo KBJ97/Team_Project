@@ -1,0 +1,4 @@
+hooks 폴더 내 custom hook 파일 저장
+custom hook은 2개 이상의 react hook을 사용하고,
+여러번 필요한 경우 함수 컴포넌트 형태로 만들어 사용
+(ex : useState와 useEffect를 사용해 같은 형태로 json 파일을 불러오는 경우 등)

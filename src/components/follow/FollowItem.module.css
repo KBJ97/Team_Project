@@ -1,0 +1,12 @@
+.container {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom : 10px;
+}
+.img_wrap img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

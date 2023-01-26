@@ -1,0 +1,134 @@
+.posting {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-white);
+  border-radius: 8px;
+  width: 40%;
+  min-width: 350px;
+  align-items: center;
+  position: relative;
+  margin: 50px auto;
+  outline: none;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-gray);
+  align-items: center;
+}
+.filebox,
+.delete {
+  margin-top: 5px;
+  cursor: pointer;
+}
+.label {
+  display: inline-block;
+  cursor: pointer;
+}
+.filebox input[type="file"] {
+  /* 파일 필드 숨기기 */
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.icon {
+  margin: 5px;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+.image {
+  max-height: 300px;
+}
+.posting_text {
+  width: 100%;
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 0 5px;
+  white-space: pre-wrap;
+}
+.posting_btn_box {
+  width: 106px;
+  align-items: center;
+  text-align: right;
+}
+.posting_btn {
+  min-width: 55px;
+  height: 32px;
+  outline: none;
+  border: 0;
+  background-color: var(--color-main-green3);
+  /*background-color: #7c83fd;*/
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.upload_img {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0;
+}
+.img_list {
+  margin: 0 5px;
+  position: relative;
+}
+.delete_img {
+  position: absolute;
+  top: -5px;
+  right: -3px;
+  z-index: 10;
+}
+svg {
+  background-color: white;
+  border-radius: 100%;
+}
+/*해쉬태그*/
+.hash_box {
+  display: flex;
+  margin: 0 5px;
+  flex-wrap: wrap;
+}
+.hash {
+  display: flex;
+  margin: 0 5px;
+}
+.hash_input {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: 1px solid#eee;
+  padding: 0 5px;
+}
+.tag {
+  color: var(--color-main-blue);
+}
+.tag::before {
+  content: "#";
+}
+.delete_font {
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.emoticon_btn {
+  height: 32px;
+  outline: none;
+  font-size: var(--font-xlarge);
+  border: 0;
+  background-color: var(--color-white);
+  color: var(--color-white);
+  margin: 0 8px;
+  cursor: pointer;
+}

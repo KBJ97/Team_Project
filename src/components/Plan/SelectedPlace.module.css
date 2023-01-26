@@ -1,0 +1,63 @@
+.pickplaceall {
+  background-color: var(--color-gray);
+  width : 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.place_container {
+  width: 250px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  align-items: center;
+  padding-bottom: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.selectcontent {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+}
+
+.selectedPlace {
+
+}
+
+.remove_btn_wrap {
+  margin: 10px;
+  display: flexbox;
+}
+.remove_btn_wrap button {
+  width: 20%;
+  background: var(--color-main-green3);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: var(--font-medium);
+  color: white;
+}
+.place_titlecontainer {
+  width: 100%;
+}
+.place_dic {
+  font-size: small;
+  color: gray;
+  height: 17px;
+  overflow: auto;
+  position: relative;
+  bottom: -10px;
+}
+
+.place_title {
+  height: 25px;
+  overflow: auto;
+}
+.pickplaceall p {
+  font-size: small;
+  margin-top: 2px;
+  margin-bottom : 10px;
+  color: white;
+}

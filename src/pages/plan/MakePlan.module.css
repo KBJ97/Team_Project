@@ -1,0 +1,104 @@
+.makeplanall {
+  width: calc(100% - 260px);
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin: 10px;
+}
+
+.titleall {
+  display: flexbox;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.inputedit {
+  display: flexbox;
+  position: relative;
+  width: 90%;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+}
+
+.titletext {
+  display: flex;
+  position: relative;
+  top: 10px;
+  color: var(--color-main-green3);
+  left: 0px;
+  padding-right: 10px;
+}
+
+.titletext2 {
+  display: flexbox;
+  position: relative;
+  top: 10px;
+  color: var(--color-main-green3);
+  left: 10px;
+  right: 10px;
+  padding-right: 50px;
+  padding: 1px;
+}
+
+.datelist p {
+  display: flexbox;
+  position: relative;
+  top: 10px;
+  left: 12px;
+}
+
+.titlebtn {
+  margin-left: 5px;
+  background-color: white;
+  height: 3em;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  color: gray;
+  width: 80px;
+}
+
+.titlebtn:hover {
+  background-color: var(--color-main-green3);
+  color: white;
+}
+
+.datelist {
+  display: flex;
+  position: relative;
+  top: 20px;
+  margin-bottom: 20px;
+}
+
+.datelist p {
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.datelist h3 {
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.days {
+  margin-top: 10px;
+}
+@media (max-width: 1300px) {
+  .makeplanall {
+    width: calc(100% - 90px);
+  }
+}
+@media (max-width: 768px) {
+  .inputedit {
+    display: flexbox;
+    position: relative;
+    width: 70%;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+  }
+  .makeplanall {
+    width: calc(100%);
+  }
+}

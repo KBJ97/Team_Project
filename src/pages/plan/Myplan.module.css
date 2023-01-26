@@ -1,0 +1,134 @@
+.myplan {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    justify-content : center;
+}
+
+.myplantitlewrap{
+    display: flex; 
+    justify-content: center;
+    margin:20px;
+}
+
+.myplantitle{
+margin-top: 40px;
+}
+
+.profileimg {
+    width: 140px;
+    height: 140px;
+    background-color: var(  --color-main-green3);
+    border-radius: 100%;
+    left: -20px;
+}
+
+.titletextplus {
+    width: 100%;
+    position: relative; 
+}
+
+.addround{
+display: flex;
+font-weight: bold;
+margin-top: 10px;
+padding-top: 5px;
+padding-left: 7px;
+width: 100px;
+height: 30px;
+color: var(  --color-main-green3);
+border: 1px solid var(  --color-main-green3);
+border-radius: 5px;
+display: flexbox;
+position: relative;
+top: -35px;
+left: 110px;
+}
+
+.addround:hover{
+
+    border: 1px solid var(  --color-main-green3);
+    background-color: var(  --color-main-green3);
+    color: white;
+    }
+
+    .text {
+        width: 120px;
+        padding: 10px;
+        background-color: var(  --color-main-green3);
+        position: absolute;
+        color: white;
+        border-radius: 10%;
+        left:42%;
+    }
+
+    .myplanList{
+        display: inline-block;
+        width: 100%;
+    }
+
+
+
+    @media (max-width: 768px) {
+        .myplan {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            justify-content : center;
+        }
+        
+        .myplantitlewrap{
+            display: grid;
+            grid-column: 30% 70%;
+        }
+        .myplantitle{
+            margin-bottom: 10px;
+        }
+        
+        .profileimg {
+            margin: 0 auto;
+            width: 140px;
+            height: 140px;
+            background-color: var(  --color-main-green3);
+            border-radius: 100%;
+        }
+        
+        .titletextplus {
+            margin-top: 10px;
+            width: 100%;
+            position: relative; 
+            top: -60px;
+        }
+        
+        .addround{
+        font-weight: bold;
+        margin-top: 10px;
+        padding: ;
+        padding-left: 20px;
+        color: var(  --color-main-green3);
+        position: relative;
+        width: 120px;
+         top: -60px;
+        left: 10px;
+
+        }
+        
+        .addround:hover{
+            font-weight: bolder;
+            margin-top: 10px;
+            color: var(  --color-main-green3);
+            }
+        
+            .text {
+                width: 120px;
+                padding: 10px;
+                background-color: var(  --color-main-green3);
+                position: absolute;
+                color: white;
+                border-radius: 10%;
+                left:42%;
+            }
+        
+        
+
+    }

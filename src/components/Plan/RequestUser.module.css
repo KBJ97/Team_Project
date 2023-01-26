@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding : 10px 20px;
+}
+.user_wrap{
+  display: flex;
+  align-items: center;
+  gap : 10px;
+}
+.name{
+  font-weight: 700;
+}
+.introduction{
+  font-size: var(--font-small);
+  color : var(--color-main-gray);
+  text-align: left;
+}
+.profile{
+  width : 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.btn{
+  padding : 5px 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.list {
+  padding: 10px;
+  border-bottom: 1px solid var(--color-light-gray);
+  cursor: pointer;
+}
+.place {
+  display: flex;
+  align-items: center;
+}
+
+.day_container li {
+  display: flex;
+  align-items: center;
+}
+
+.day_container {
+  margin: 10px;
+}
+
+.day_container h3 {
+  color: var(--color-main-green3);
+  font-weight: bold;
+}
+.address {
+  font-size: var(--font-small);
+  color: var(--color-main-gray);
+  margin-top: 3px;
+}
+.placeiconline {
+  padding-right: 10px;
+  border-right: 1px solid lightgray;
+}
+
+.placeicon {
+  display: flexbox;
+  position: relative;
+  left: 10px;
+}
+
+.placeaddressline {
+  display: flexbox;
+  position: relative;
+  left: 10px;
+}

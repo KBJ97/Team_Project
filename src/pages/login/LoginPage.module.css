@@ -1,0 +1,119 @@
+.login_full {
+    text-align: center;
+    color: var(--color-main-green3);
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.login_img {
+max-width: 800px;
+overflow: hidden;
+background-size: 100px;
+height: 100vh;
+}
+
+.login_text {
+    color: ver(   --color-main-green3);
+    width: 50%;
+    vertical-align: middle;
+    margin-top: 10em;
+    margin-left: 2em;
+    width: 80%;
+}
+
+.textsm {
+    font-size: var(  --font-xsmall);
+}
+
+
+.textform{
+    position: relative;
+}
+
+.textbtnW{
+    color: ver(   --color-main-green3);
+    font-size: var(  --font-xsmall);
+
+}
+
+
+
+.simplebtn {
+    font-size: var(   --font-medium);
+    background-color:  var(  --color-main-green3);
+    color: white;
+    width: 25ch;
+    padding: 1em;
+    border-radius: 0.5em;
+    border:none;
+    transition: all ease 0.5s 0s;
+    height: 50px;
+}
+
+.simplebtn:hover {
+    text-align: left;
+    font-size: var(   --font-medium);
+    background-color: white;
+    border: 1px solid  var(  --color-main-green3);
+    color:  var(  --color-main-green3);
+    width: 25ch;
+    text-align: center;
+
+}
+
+
+
+
+
+.simplebtn2 {
+    font-size: var(   --font-medium);
+    color:  var(  --color-main-green3);
+    border: 1px solid  var(  --color-main-green3);
+    width: 25ch;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    transition: all ease 0.5s 0s;
+    height: 50px;
+}
+
+.simplebtn2:hover {
+    font-size: var(   --font-medium);
+    background-color:  var(  --color-main-green3);
+    color: white;
+}
+
+
+.textm {
+    color:   var(  --color-main-green3);
+    margin-top: 7px;
+    font-size: var(  --font-small);
+}
+
+.text0 {
+    background-color:  var(  --color-main-green3);
+    color: white;
+    
+}
+
+.textfont {
+background-color: white;
+width: 700px;
+height: 200px;
+color: white;
+}
+
+
+.findpwd {
+    text-align: center;
+    display: flex;
+    color:  var(  --color-main-green3);
+    position:relative;
+    justify-content : center;
+    width: 100%;
+}
+
+.findpwdin {
+    display: inline-block;
+    position:relative;
+    margin-top:5vh;
+}

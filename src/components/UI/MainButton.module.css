@@ -1,0 +1,18 @@
+.button {
+  font-family: "font_e", "twayair";
+  font-size: var(--font-medium);
+  padding: 10px;
+  cursor: pointer;
+  background: none;
+  border: 2px solid var(--color-main-green3);
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: var(--color-main-green3);
+  border-radius: 10px;
+  letter-spacing: 3px;
+}
+.button:hover{
+  box-shadow: inset 0px 0px 20px 5px rgba(175, 218, 201, 0.5),
+  0px 0px 10px 2px rgba(175, 218, 201, 0.5);
+}

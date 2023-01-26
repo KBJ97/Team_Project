@@ -1,0 +1,89 @@
+.days {
+    padding: 20px;
+}
+
+.days select , input {
+    height: 3em;
+    border: none;
+}
+
+.dates {
+    display: flex;
+    width: 70px;
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+    font-weight: bolder;
+    color: var(  --color-main-green3);
+}
+
+.datetime{
+    display: flex;
+}
+.oneline {
+    display: flex;
+}
+
+.toplinebtn button{
+    height: 3em;
+    width: 4em;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+
+.toplinebtn button:hover{
+       background-color:  var(  --color-main-green3);
+       border: none;
+       color: white;
+}
+
+.place_a{
+margin: 5px;
+}
+
+.timeplace{
+display: flexbox;
+position: relative;
+left: 3em;
+}
+
+.placewrap{
+    display: flexbox;
+    position: relative;
+    text-align: left;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    width: 60%;
+    padding: 10px;
+    height: 70px;
+}
+
+.timeicon{
+    position: relative;
+    left:8px;
+}
+.placetime {
+    display: flexbox;
+    border-right: 1px solid black;
+    width: 53px;
+}
+
+.placeadd{
+    display: flexbox;
+    position: relative;
+    left:60px;
+    top : -45px;
+}
+
+.placetit {
+    font-size: 18px;
+}
+
+.placeaddress{
+    position: relative;
+    font-size: 12px;
+    top : 5px;
+    color: gray;
+}

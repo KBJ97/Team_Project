@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "font_e", "font_h";
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+/* 기본 스타일 리셋(전체 페이지 적용) */
+
+/*타이틀 로고 폰트 설정*/
+@font-face {
+  font-family: "title_logo";
+  src: url(../public/fonts/PICOBLA_.TTF);
+}
+/*영어 폰트*/
+@font-face {
+  font-family: "font_e";
+  src: url(../public/fonts/OpenSans-Regular.ttf);
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+/*한글 폰트*/
+@font-face {
+  font-family: "font_h";
+  src: url(../public/fonts/NanumGothic-Regular.ttf);
+  unicode-range: U+AC00 –D7A3;
+}
+.emoji-picker-react {
+  width: 100% !important;
+  box-shadow: none !important;
+}
+
+@font-face {
+  font-family: 'twayair';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

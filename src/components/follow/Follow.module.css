@@ -1,0 +1,139 @@
+.follw_wrap {
+  min-width: 600px;
+  margin: 0 auto;
+  width: 40%;
+}
+.follw_undefined {
+  width: 40%;
+  min-width: 600px;
+  min-height: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.follw_title {
+  color: var(--color-light-gray);
+  width: 100%;
+  text-align: center;
+}
+.follow_user_list {
+  display: flex;
+  border: 1px solid var(--color-light-gray);
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  border-radius: 8px;
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 10px var(--color-gray);
+}
+.follow_user_profile {
+  border-radius: 100%;
+  margin: 30px 10px;
+  border: 2px solid var(--color-gray);
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.follow_user {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.follow_user_data_box {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+.follow_user_data {
+  height: 20px;
+  margin: 30px 10px;
+  font-size: var(--font-medium);
+  max-width: 200px;
+}
+
+.follow_btn {
+  height: 30px;
+  background-color: var(--color-main-green3);
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 5px;
+  border: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  color: var(--color-white);
+}
+
+.unfollow_btn {
+  width: 89px;
+  height: 30px;
+  background-color: var(--color-white);
+  cursor: pointer;
+  border: 1px solid var(--color-main-blue);
+  border-radius: 8px;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  color: var(--color-black);
+}
+.unfollow_btn:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.title_box {
+  height: 192px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "title_logo";
+  align-items: flex-end;
+}
+
+.title {
+  margin: 0px 10px 5px 0px;
+}
+
+@media (max-width: 1300px) {
+  .follw_wrap {
+    min-width: 600px;
+    margin: 0 auto;
+  }
+  .follow_user_data_box {
+    width: 300px;
+  }
+  .follow_user_data {
+    height: 25px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .follw_wrap {
+    width: 100%;
+    min-width: 300px;
+    height: 1000px;
+  }
+  .follw_undefined {
+    width: 100%;
+    min-width: 300px;
+  }
+  .follw_title {
+    font-size: var(--font-xlarge);
+  }
+  .follow_user_list {
+    width: 100%;
+    min-width: 300px;
+  }
+  .follow_user_data_box {
+    width: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

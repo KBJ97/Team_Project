@@ -1,0 +1,37 @@
+.title {
+  color: var(--color-main-gray);
+  font-weight: 400;
+  font-size: var(--font-xlarge);
+}
+.recommend_wrap {
+  margin: 20px 0;
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid var(--color-light-gray);
+  border-radius: 1em;
+}
+
+.container {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom : 10px;
+}
+.img_wrap img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.user_info_wrap{
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap : 5px;
+  overflow: hidden;
+}
+.introduction{
+  color : var(--color-main-gray);
+  font-size: var(--font-small);
+}

@@ -1,0 +1,22 @@
+.listbox{
+    width: 100%;
+}
+.listbox button {
+    display: flexbox;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid var(  --color-main-green3);
+    border-radius: 10px;
+    color: var(  --color-main-green3);
+    background-color: white;
+}
+
+.listbox button:hover {
+    border: 1px solid var(  --color-main-green3);
+    border-radius: 10px;
+    background-color: var(  --color-main-green3);
+    color: white;
+}

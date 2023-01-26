@@ -1,0 +1,40 @@
+.title {
+  font-size: 2em;
+  text-align: center;
+  font-family: "title_logo";
+  color: var(--color-main-green3);
+  /*타이틀(로고) 디자인 적용*/
+}
+.header {
+  height: 20vh;
+  display: flexbox;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 70px;
+}
+
+.headertitle {
+  background-color: white;
+  display: flexbox;
+  position: relative;
+  top: 30px;
+}
+
+.headericon {
+  display: flexbox;
+  position: relative;
+  height: 10px;
+  left: 90px;
+  z-index: -1;
+}
+
+@media (max-width: 1300px) {
+  .headericon {
+    display: flexbox;
+    position: relative;
+    height: 10px;
+    left: 2px;
+    z-index: -1;
+  }
+}

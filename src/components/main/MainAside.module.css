@@ -1,0 +1,10 @@
+.container {
+  min-width: calc(15% + 150px);
+  margin-top: 10px;
+  margin-left: 10px;
+}
+@media (max-width: 1300px) {
+  .container {
+    display: none;
+  }
+}

@@ -1,0 +1,292 @@
+.user {
+  flex-grow: 1;
+}
+
+.title {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  border-bottom: 1px solid var(--color-gray);
+}
+.main_title {
+  min-width: 300px;
+  margin-top: 40px;
+}
+.name_title {
+  display: flex;
+  align-items: center;
+}
+.preview {
+  border-radius: 100%;
+  margin: 30px;
+  border: 2px solid var(--color-main-green2);
+  height: 130px;
+  width: 130px;
+  overflow: hidden;
+}
+.name {
+  font-size: var(--font-xlarge)
+}
+.comment {
+  width: 100%;
+  display: flex;
+}
+.comment_follow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.postmenu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.content_list {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.nav_btn {
+  margin-left: 5px;
+  background-color: var(--color-white);
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+  color: var(--color-gray);
+}
+.active {
+  height: 25px;
+  color: var(--color-black);
+}
+
+.user_title {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.user_data {
+  margin-left: 8px;
+  font-weight: bold;
+}
+.introduction {
+  font-weight: bold;
+  font-family: "font-h";
+}
+
+.button {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray);
+  font-weight: bold;
+  border-radius: 4px;
+  width: 130%;
+  height: 100%;
+  cursor: pointer;
+}
+.button1 {
+  padding-left: 20px;
+  height: 30px;
+  width: 94px;
+}
+.button:hover {
+  background-color: var(--color-main-green1);
+}
+
+/*포스트 css*/
+.post_main {
+  text-align: center;
+  border: 1px solid var(--color-gray);
+  border-radius: 5px;
+  width: 280px;
+  height: 200px;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+.post_comment {
+  color: var(--color-gray);
+}
+.post_button {
+  background-color: var(--color-main-green3);
+  border: none;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  color: var(--color-white);
+  margin-top: 30px;
+  cursor: pointer;
+}
+.post_memo {
+  margin-top: 30px;
+}
+.container {
+  width: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+.file_box {
+  position: absolute;
+  bottom: -10px;
+  right: 45px;
+}
+.icon {
+  cursor: pointer;
+}
+
+.follow_btn {
+  height: 30px;
+  background-color: var(--color-main-green3);
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 5px;
+  border: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.unfollow_btn {
+  height: 30px;
+  background-color: var(--color-white);
+  cursor: pointer;
+  border: 1px solid var(--color-main-blue);
+  border-radius: 8px;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  color: var(--color-black);
+}
+.unfollow_btn:hover {
+  width: 85px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.unfollow_btn:hover::after {
+  content: "취소";
+}
+.icon {
+  cursor: pointer;
+}
+.nav_icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 13px;
+  background-color: var(--color-white);
+  border: 0;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+@media (max-width: 1300px) {
+  .post_main {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main_title {
+    width: 50%;
+    min-width: 180px;
+    margin-top: 40px;
+  }
+  .title {
+    justify-content: flex-start;
+    margin: 0;
+    min-width: 330px;
+  }
+  .preview {
+    margin: 40px 20px;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+  }
+  .container {
+    margin: 30px;
+  }
+
+  .button {
+    width: 100px;
+  }
+  .user_title {
+    width: 100%;
+    min-width: 180px;
+    display: flex;
+  }
+  .comment {
+    flex-flow: column;
+    flex-direction: column-reverse;
+  }
+  .comment_follow {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .follow_btn {
+    height: 30px;
+    background-color: var(--color-main-green3);
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 5px;
+    border: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+  }
+
+  .unfollow_btn {
+    width: 60px;
+    height: 19px;
+    background-color: var(--color-white);
+    border: 0;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0px;
+    color: var(--color-black);
+    font-size: 16px;
+  }
+  .unfollow_btn:hover {
+    width: 80px;
+    background-color: var(--color-white);
+    color: var(--color-main-red);
+  }
+  .user_data {
+    margin: 0 0 5px 20px;
+  }
+  .name {
+    display: block;
+    font-size: var(--font-large);
+  }
+  .post_main {
+    margin: 15px;
+    margin-left: 90px;
+  }
+  .postmenu {
+    min-width: 330px;
+    max-width: 740px;
+    margin: 15px 0;
+  }
+  .content_list {
+    margin: 0;
+  }
+  .nav_btn {
+    display: none;
+  }
+.active{
+    border: solid 2px var(--color-main-green3);
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+  }
+}

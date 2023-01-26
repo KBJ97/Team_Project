@@ -1,0 +1,9 @@
+.window_container{
+  text-align: center;
+}
+.window_header_wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap : 5px;
+}
